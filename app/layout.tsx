@@ -1,9 +1,16 @@
 import { Poppins } from "next/font/google";
 import Sidebar from "@/components/layout/Sidebar";
 import { Toaster } from "sonner";
-import "./globals.css"
+import "./globals.css";
+import { Metadata } from "next";
 
 const inter = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+
+export const metadata: Metadata = {
+  title: "Stealth Dashboard",
+  description:
+    "Built a UI to review candidate submissions for each assignment. Displayed candidate details and scores as per the provided mock response. Showed detailed candidate profiles with individual assessment scores using the provided mock API data.",
+};
 
 export default function MainLayout({
   children,
