@@ -33,11 +33,21 @@ To install and run this project locally, add the following commands in your term
    `npm install -g npm@10.5.2`
 ```
 
-6. Install `dependencies` (assuming you have `Node.js` and `npm` installed):
+5. Install `dependencies` (assuming you have `Node.js` and `npm` installed):
 
 ```bash
    `npm install`
 ```
+
+6. Run the below command to start the project
+
+```bash
+   `npm run dev`
+```
+
+7. Open `http://localhost:3000` on your browser to view the project locally
+
+
 ## Images
 
 ![Screenshot 2024-05-04 173815](https://github.com/omkargade04/stealth-dashboard/assets/121718985/0447028c-d1d3-4817-a636-b0c20912d058)
