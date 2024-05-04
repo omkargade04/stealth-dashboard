@@ -38,4 +38,8 @@ To install and run this project locally, add the following commands in your term
 ```bash
    `npm install`
 ```
+## Images
+
+![Screenshot 2024-05-04 173815](https://github.com/omkargade04/stealth-dashboard/assets/121718985/0447028c-d1d3-4817-a636-b0c20912d058)
+![Screenshot 2024-05-04 173900](https://github.com/omkargade04/stealth-dashboard/assets/121718985/7844698e-2397-467f-b7ad-df3812ab6ee1)
 
