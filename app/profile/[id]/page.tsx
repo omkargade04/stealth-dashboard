@@ -6,7 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps, useEffect, useState } from "react";
 import Image from "next/image";
-import profileImage1 from "@/public/assets/profile.png";
+import profileImage1 from "@/public/profile.png";
 import { useParams } from "next/navigation";
 import data from "@/data.json";
 
