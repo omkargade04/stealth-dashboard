@@ -14,7 +14,7 @@ const Field: React.FC<FieldProps> = ({ first, second }) => {
   return (
     <main>
       <div className="flex justify-between m-4 flex-col md:flex-row">
-        <h2 className="text-slate-400 text-xl font-semibold">{first}</h2>
+        <h2 className="text-slate-400 text-lg font-semibold">{first}</h2>
         <a
           href={second}
           className={`text-lg font-semibold ${

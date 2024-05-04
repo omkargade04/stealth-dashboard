@@ -7,32 +7,32 @@
     },
     {
         "id": "2",
-        "name": "Saurav Singh",
-        "email": "saurav@gmail.com",
+        "name": "Gaurav Kumar",
+        "email": "gaurav@gmail.com",
         "score": 37
     },
     {
         "id": "3",
-        "name": "Saurav Singh",
-        "email": "saurav@gmail.com",
+        "name": "Nirbhay Shah",
+        "email": "nirbhay@gmail.com",
         "score": 64
     },
     {
         "id": "4",
-        "name": "Saurav Singh",
-        "email": "saurav@gmail.com",
+        "name": "Akshay Singh",
+        "email": "akshay@gmail.com",
         "score": 28
     },
     {
         "id": "5",
-        "name": "Saurav Singh",
-        "email": "saurav@gmail.com",
+        "name": "Punit Marda",
+        "email": "punit@gmail.com",
         "score": 51
     },
     {
         "id": "6",
-        "name": "Saurav Singh",
-        "email": "saurav@gmail.com",
+        "name": "Mandar Singh",
+        "email": "mandar@gmail.com",
         "score": 44
     }
 ]

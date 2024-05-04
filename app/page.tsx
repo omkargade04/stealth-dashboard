@@ -35,17 +35,17 @@ export default function Home() {
         <h2 className="text-lg text-zinc-800"> / Assignment</h2>
       </div>
       <div className=" flex justify-start items-center m-10 ">
-        <h2 className="text-xl font-semibold text-zinc-700">Sales BDE</h2>
+        <h2 className="text-lg font-semibold text-zinc-700">Sales BDE</h2>
       </div>
 
       <div className="">
         <Card className="w-full md:w-3/4 m-4 rounded-2xl">
           <div className="flex justify-between m-4 pb-5">
-            <h1 className="text-lg md:text-2xl pt-2 font-semibold text-zinc-700">
+            <h1 className="text-lg md:text-xl pt-2 font-semibold text-zinc-700">
               Sales BDE{" "}
             </h1>
             <div className="flex gap-x-4">
-              <h1 className="text-lg md:text-2xl font-semibold pt-2 text-green-500">
+              <h1 className="text-lg md:text-xl font-semibold pt-2 text-green-500">
                 Active{" "}
               </h1>
               <HiPencil className="h-10 w-10 shadow-md hover:cursor-pointer p-3 rounded-lg" />
@@ -62,21 +62,21 @@ export default function Home() {
           <Field first={"Assignment Ends At"} second={"11 March 2024"}></Field>
 
           <div className="flex justify-start items-center m-4 gap-x-10 mt-14">
-            <Button className="bg-white text-black md:text-lg text-sm font-semibold shadow-xl border border-slate-100 rounded-2xl flex justify-center items-center w-44 hover:bg-slate-200">
+            <Button className="bg-white text-black md:text-sm text-xs font-semibold shadow-xl border border-slate-100 rounded-2xl flex justify-center items-center w-44 hover:bg-slate-200">
               <IoIosCube className="h-6 w-6 pr-2 text-black" />
               TO REVIEW
             </Button>
             <div className="flex">
               <FaFile className="h-6 w-6 pr-2 " />
-              <p className="font-semibold md:text-lg text-sm hover:cursor-pointer"> SHORTLISTED</p>
+              <p className="font-semibold md:text-sm text-xs hover:cursor-pointer"> SHORTLISTED</p>
             </div>
           </div>
           <div className="pt-5">
             <div className="flex justify-around m-4">
-              <h2 className="text-slate-400 text-lg md:text-xl font-semibold">
+              <h2 className="text-slate-400 text-sm md:text-lg font-semibold">
                 Candidates
               </h2>
-              <h2 className="text-slate-400 text-lg md:text-2xl font-semibold pl-12 ">
+              <h2 className="text-slate-400 text-sm md:text-lg font-semibold pl-12 ">
                 Scores
               </h2>
             </div>
@@ -96,7 +96,7 @@ export default function Home() {
                   alt="Profile"
                   className="w-12 h-12 rounded-full mr-4"
                 />
-                <div className="text-lg text-gray-700 font-semibold">
+                <div className=" text-gray-700 font-semibold">
                   <div>
                     {user.name}
                     <p className="text-sm text-gray-400">{user.email}</p>
@@ -105,7 +105,7 @@ export default function Home() {
               </div>
 
               <div
-                className={`text-2xl font-semibold ${
+                className={`text-xl font-semibold ${
                   user.score > 49
                     ? "text-green-500"
                     : `${
