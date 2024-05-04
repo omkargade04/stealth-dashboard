@@ -20,7 +20,6 @@ export default function Component() {
 
   const [user, setUser] = useState<UserData>();
   const { id } = useParams();
-  console.log(id);
 
   const getUser = () => {
     const foundUser = data.find((userData) => userData.id === id);
@@ -38,13 +37,12 @@ export default function Component() {
   if (!user) {
     return <div>Loading...</div>;
   }
-  console.log("This is user: ", user);
   return (
     <div className="flex flex-col md:flex-row bg-white p-6 rounded-lg shadow-md pt-10">
       <div className="flex-1 space-y-6 pr-10">
         <div className="flex items-center space-x-4">
           <Image
-            src={profileImage1} // Example: alternate between two profile images
+            src={profileImage1}
             alt="Profile"
             className="w-12 h-12 rounded-full mr-4"
           />
@@ -151,22 +149,6 @@ export default function Component() {
           </Button>
         </div>
 
-        {/* <div className="relative">
-          <Image
-            alt="Profile video"
-            className="rounded-lg w-full h-auto"
-            height="400"
-            src="https://www.youtube.com/watch?v=6qERg1Yt1QQ&ab_channel=Turing"
-            style={{
-              aspectRatio: "300/400",
-              objectFit: "cover",
-            }}
-            width="300"
-          />
-          <Button className="absolute inset-0 m-auto w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center">
-            <PlayIcon className="h-8 w-8 text-gray-800" />
-          </Button>
-        </div> */}
         <div className="mt-4 flex justify-between items-center">
           <Button className="text-gray-600" variant="ghost">
             <ChevronLeftIcon className="h-6 w-6" />

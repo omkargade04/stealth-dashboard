@@ -9,10 +9,8 @@ import data from "@/data.json";
 import Field from "@/components/Field";
 import Image from "next/image";
 
-// Sample profile images
-import profileImage1 from "@/public/assets/profile.png";
+import profileImage1 from "@/public/profile.png";
 import { useRouter } from "next/navigation";
-// Add other profile images as needed
 
 export default function Home() {
   interface UserData {
@@ -68,7 +66,10 @@ export default function Home() {
             </Button>
             <div className="flex">
               <FaFile className="h-6 w-6 pr-2 " />
-              <p className="font-semibold md:text-sm text-xs hover:cursor-pointer"> SHORTLISTED</p>
+              <p className="font-semibold md:text-sm text-xs hover:cursor-pointer">
+                {" "}
+                SHORTLISTED
+              </p>
             </div>
           </div>
           <div className="pt-5">
@@ -92,7 +93,7 @@ export default function Home() {
             >
               <div className="flex ">
                 <Image
-                  src={profileImage1} // Example: alternate between two profile images
+                  src={profileImage1}
                   alt="Profile"
                   className="w-12 h-12 rounded-full mr-4"
                 />
@@ -109,7 +110,9 @@ export default function Home() {
                   user.score > 49
                     ? "text-green-500"
                     : `${
-                        (user.score || 0) >= 30 ? "text-yellow-400" : "text-red-500"
+                        (user.score || 0) >= 30
+                          ? "text-yellow-400"
+                          : "text-red-500"
                       }`
                 }`}
               >
