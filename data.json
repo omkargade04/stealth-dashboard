@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 78
+    },
+    {
+        "id": "2",
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 37
+    },
+    {
+        "id": "3",
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 64
+    },
+    {
+        "id": "4",
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 28
+    },
+    {
+        "id": "5",
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 51
+    },
+    {
+        "id": "6",
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 44
+    }
+]
